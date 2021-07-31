@@ -20,6 +20,9 @@ public class Const {
         }
 
         private float numVal;
+		private int a = 5;
+		private int b = 4;
+		private int c = a + b;
 
         ASPECT_RATIO(float numVal) {
             this.numVal = numVal;
